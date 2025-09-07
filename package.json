@@ -8,5 +8,13 @@
     "name": "komed3 (Paul Köhler)",
     "email": "webmaster@komed3.de",
     "url": "https://komed3.de"
+  },
+  "type": "commonjs",
+  "main": "index.js",
+  "bin": {
+    "i18n-sync": "./bin/i18n-sync"
+  },
+  "scripts": {
+    "sync": "node index.js"
   }
 }
