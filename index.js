@@ -11,7 +11,7 @@ async function main () {
 
         log( `>> Starting i18n sync process ...` );
 
-        log( `>> Loading configuration file` );
+        log( `>> Loading configuration file ...` );
         const config = await loadConfig();
 
         log( `>> Syncing translation files from GitHub ... ` );
