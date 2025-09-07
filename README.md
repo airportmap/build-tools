@@ -16,6 +16,5 @@ Use `i18n-sync` to sync translation files:
 
 ```bash
 i18n-sync
-i18n-sync --compressed
 i18n-sync --ci
 ```
