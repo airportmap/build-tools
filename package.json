@@ -1,0 +1,12 @@
+{
+  "name": "@airportmap/i18n-sync",
+  "private": true,
+  "version": "0.1.0",
+  "description": "Sync i18n files from @airportmap/i18n repository",
+  "license": "MIT",
+  "author": {
+    "name": "komed3 (Paul Köhler)",
+    "email": "webmaster@komed3.de",
+    "url": "https://komed3.de"
+  }
+}
