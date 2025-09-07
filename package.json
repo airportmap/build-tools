@@ -12,7 +12,7 @@
   "type": "commonjs",
   "main": "index.js",
   "bin": {
-    "i18n-sync": "./bin/i18n-sync.js"
+    "i18n-sync": "./bin/i18n-sync"
   },
   "scripts": {
     "sync": "node index.js"
