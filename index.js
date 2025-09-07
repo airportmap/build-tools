@@ -1,5 +1,6 @@
 #!/usr/bin/env node
 
+const { loadConfig } = require( './lib/config' );
 const { log } = require( './lib/logger' );
 
 async function main () {}
