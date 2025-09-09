@@ -18,6 +18,7 @@
     "sync": "node lib/sync/index.js"
   },
   "dependencies": {
+    "esbuild": "^0.25.9",
     "glob": "^11.0.3",
     "js-yaml": "^4.1.0",
     "node-fetch": "^3.3.2",
