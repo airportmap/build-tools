@@ -1,5 +1,5 @@
 #!/usr/bin/env node
 
-const { main } = require( '..lib/sync/index.js' );
+const { main } = require( '../lib/sync' );
 
 ( async () => await main() )();
