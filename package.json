@@ -1,8 +1,7 @@
 {
-  "name": "@airportmap/i18n-sync",
+  "name": "@airportmap/build-tools",
   "private": true,
-  "version": "0.1.0",
-  "description": "Sync i18n files from @airportmap/i18n repository",
+  "description": "Dev-tools for building and syncing assets for Airportmap",
   "license": "MIT",
   "author": {
     "name": "komed3 (Paul Köhler)",
@@ -10,12 +9,13 @@
     "url": "https://komed3.de"
   },
   "type": "commonjs",
-  "main": "index.js",
   "bin": {
+    "build-assets": "./bin/build-assets",
     "i18n-sync": "./bin/i18n-sync"
   },
   "scripts": {
-    "sync": "node index.js"
+    "build": "node lib/build/index.js",
+    "sync": "node lib/sync/index.js"
   },
   "dependencies": {
     "js-yaml": "^4.1.0",
