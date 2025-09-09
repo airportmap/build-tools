@@ -1,0 +1,21 @@
+sourceDir: "ui"
+outputDir: "public"
+
+patterns:
+  scss: [ "**/css/*.scss" ]
+  typescript: [ "**/src/*.ts" ]
+  exclude: [ "**/_*" ]
+
+naming:
+  css: "{{module}}.{{file}}.css"
+  js: "{{module}}.{{file}}.js"
+  vendorCss: "{{pkg}}.{{file}}.vendor.css"
+  vendorJs: "{{pkg}}.{{file}}.vendor.js"
+
+vendor:
+  "@airportmap/map":
+    name: "map"
+    sourceDir: "ui"
+    scss: [ "**/css/*.scss" ]
+    typescript: [ "**/src/*.ts" ]
+    exclude: [ "**/_*" ]

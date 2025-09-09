@@ -1,0 +1,12 @@
+i18n:
+  path: "i18n/locales"
+  pattern: "{{lng}}/{{ns}}.json"
+  fallbackLng: "en-US"
+  preload:
+    - "en-US"
+    - "de-DE"
+
+matrix:
+  lngs: [ "*" ]
+  ns:
+    - "app.*"

@@ -17,9 +17,9 @@ npm install --save-dev github:airportmap/build-tools
 Use `build-assets` to build assets (css/js):
 
 ```bash
-build-assets --config=build-assets.config.yml
-build-assets --config=build-assets.config.yml --compressed
-build-assets --config=build-assets.config.yml --ci
+build-assets --config=project/build-assets.config.yml
+build-assets --config=project/build-assets.config.yml --compressed
+build-assets --config=project/build-assets.config.yml --ci
 ```
 
 ### i18n-sync
