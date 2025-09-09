@@ -18,8 +18,10 @@
     "sync": "node lib/sync/index.js"
   },
   "dependencies": {
+    "glob": "^11.0.3",
     "js-yaml": "^4.1.0",
     "node-fetch": "^3.3.2",
+    "sass": "^1.92.1",
     "yargs": "^18.0.0"
   }
 }
