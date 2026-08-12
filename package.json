@@ -19,7 +19,7 @@
   },
   "dependencies": {
     "clean-css": "^5.3.3",
-    "esbuild": "^0.28.1",
+    "esbuild": "^0.28.2",
     "glob": "^13.0.6",
     "js-yaml": "^5.2.3",
     "node-fetch": "^3.3.2",
